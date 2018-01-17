@@ -1,0 +1,27 @@
+{
+  "name": "custom-ripple-wallet",
+  "version": "1.0.0",
+  "description": "Script to generate a ripple wallet ending with a custom string",
+  "main": "find.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unusec/custom-ripple-wallet.git"
+  },
+  "keywords": [
+    "ripple",
+    "custom",
+    "wallet"
+  ],
+  "author": "UnuSec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unusec/custom-ripple-wallet/issues"
+  },
+  "homepage": "https://github.com/unusec/custom-ripple-wallet#readme",
+  "dependencies": {
+    "ripple-lib": "^0.17.9"
+  }
+}
