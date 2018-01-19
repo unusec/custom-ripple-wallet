@@ -17,7 +17,7 @@ if(custom.length >= 6) {
 let tries = 0;
 let wallet = api.generateAddress();
 console.log(`Trying to find a Ripple wallet ending with: ${custom}`);
-while (wallet.address.slice(-custom.length) !== custom.toUpperCase()) {
+while (wallet.address.slice(-custom.length) !== custom) {
   tries++;
   wallet = api.generateAddress();
   if(tries%1000 === 0) {
